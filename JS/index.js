@@ -10,6 +10,8 @@
 
 //ADDING ROTATE CLASS ON CLICK
 
+console.log("Did this load??");
+
 const aboutMe = document.querySelector('#aboutMe');
 //VARIABLE IS WHAT YOU'RE TARGETTING. 
 addEventListener('click', () => {
