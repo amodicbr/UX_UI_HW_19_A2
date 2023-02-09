@@ -21,13 +21,15 @@ nav{
 }
 
 
-ul{
+.navul{
     display:flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffff;
 }
 
 
 
-li{
+.navli{
     display: flex;
     align-items:flex-start;
     padding-top: 20px;
@@ -338,25 +340,37 @@ section{
 
 /*footer section*/
 
-.foot{
-    display: block;
+.ft{
+    display: flex;
+}
+
+.Anna{
+    width: 400px;
+    height: 275px;
+    padding-left: 20%;
+    padding-right: 20%;
     margin: 0 auto;
-    width: 500px;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 
 .footer{
     font-size: 24px;
     padding: 10px;
+    color: #ffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 p.contact{
-    display:flex;
     justify-content: center;
-    font-size: 24px;
+    text-decoration: underline;
+    font-size: 32px;
     color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5%;
+    padding-left: 20%;
 }
 
 /*End Footer*/
@@ -442,6 +456,100 @@ p.contact{
     .foot{
         margin: 0 auto;
         padding-left: 0px;
+    }
+
+    .Anna{
+        width: 200px;
+        height: 125px;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 374px){
+    .navul{
+        width: 50%;
+        background-color: #081151;
+        
+    }
+
+
+    .containerGrid{
+        font-size: 36px;
+    }
+
+    .header{
+        font-size: 48px;
+    }
+
+    .navli{
+        display: inline-block;
+        }
+
+     .blurb{
+        font-size: 18px;
+        padding:0;
+    }
+
+    
+    .CSA{
+        font-size: 24px;
+    }
+
+
+    .caseimg{
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    #lift{
+        align-content: center;
+        justify-content: center;
+    }
+
+    #ltitle{
+        font-size: 20px;
+    }
+
+    #htitle{
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #linfo, #hinfo, #tinfo{
+        font-size: 14px;
+    }
+
+    #liftup, #humanesoc, #treasd{
+        width: 100%;
+    }
+
+    .subtitle{
+        font-size: 20px;
+    }
+
+    .buttonall{
+        font-size: 18px;
+        width: 300px;
+        height: 75px;
+    }
+    
+    .button3{
+        width: 125px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+    .foot{
+        margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    .Anna{
+        width: 200px;
+        height: 125px;
+        padding: 0;
     }
 
 }
