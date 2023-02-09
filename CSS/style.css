@@ -17,7 +17,8 @@
 
 nav{
     background-color: #9D135D ;
-    width: 100%;
+    margin: 0 auto;
+
 }
 
 
@@ -105,13 +106,14 @@ div .containerGrid{
     justify-content: center;
 }
 
-ul{
-    padding-left: 300px;
+
+.blink{
+    display: flex;
 }
 
 
 .CSA{
-    color:#fbfba5;
+    color:#fbfbeede;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -125,12 +127,14 @@ ul{
 
 .blurb{
     color:aliceblue;
-    padding-left: 30%;
-    padding-right: 30%;
     font-size: 22px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.blu{
+    padding: 10%;
+    text-align: center;
+}
 
 .button{
     display: flex;
@@ -347,17 +351,22 @@ section{
 .Anna{
     width: 400px;
     height: 275px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 25%;
     margin: 0 auto;
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 25%;
 }
 
+.ft{
+    padding-left: 25%;
+}
+
+.contactlist{
+    padding-top: 2%;
+}
 
 .footer{
     font-size: 24px;
-    padding: 10px;
     color: #ffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -369,8 +378,6 @@ p.contact{
     font-size: 32px;
     color:aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 5%;
-    padding-left: 20%;
 }
 
 /*End Footer*/
@@ -456,6 +463,10 @@ p.contact{
     .foot{
         margin: 0 auto;
         padding-left: 0px;
+    }
+
+    .ft{
+        padding: 0;
     }
 
     .Anna{
@@ -546,8 +557,12 @@ p.contact{
         padding-left: 0px;
     }
 
+    .ft{
+        padding: 0;
+    }
+
     .Anna{
-        width: 200px;
+        width: 100px;
         height: 125px;
         padding: 0;
     }
